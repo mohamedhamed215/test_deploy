@@ -1,0 +1,7 @@
+google
+dotenv
+matplotlib
+pandas
+scikit-learn
+seaborn
+plotly
