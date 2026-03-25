@@ -1,4 +1,4 @@
-google
+google-genai
 dotenv
 matplotlib
 pandas

@@ -2,7 +2,7 @@ import streamlit as st    # streamlit run app/app.py
 from google import genai  # pip install google-genai
 from dotenv import load_dotenv; load_dotenv()
 import os
-client = genai.Client( api_key= os.getenv('GEMENI_API_KEY') )
+client = genai.Client( api_key= st.secrets['GEMENI_API_KEY'] )
 
 
 st.header( 'Our First Chatbot' )
